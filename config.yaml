@@ -1,8 +1,8 @@
 baseURL: https://z00mze.github.io
 
 languageCode: en-us
-title: "John's Blog"
-theme: "toha"
+title: "Evgeniy Blog"
+theme: "main"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
@@ -10,6 +10,9 @@ languages:
   en:
     languageName: English
     weight: 1
+  ru:
+    languageName: Русский
+    weight: 2
 
 # Control TOC depth
 markup:
@@ -31,7 +34,7 @@ enableEmoji: true
 # Site parameters
 params:
   # GitHub repo URL and branch of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/z00mze/z00mze.github.io
   gitBranch: main
 
   # specify whether you want to write some blog posts or not
@@ -46,9 +49,9 @@ params:
   # Provide newsletter configuration.
   # This feature has been implemented for Mailchimp only for now.
   # You can also hide it from the footer.
-#  newsletter:
+  newsletter:
     # specify whether you want to display the newsletter form
-#    enable: true
+    enable: false
     # specify which newsletter provider you want to use
 #    provider: mailchimp
     # specify the target URL for the subscription form

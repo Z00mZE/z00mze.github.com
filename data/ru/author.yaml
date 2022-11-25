@@ -1,8 +1,8 @@
 # some information about you
-name: "Evgeniy"
-nickname: "Evgeniy"
+name: "Евгений"
+nickname: "Евгений"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Привет, я"
 image: "images/author/john.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -13,7 +13,7 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I'm a PHP/Golang developer
-  - I love microservices
-  - I love large and complex projects
-  - I like to work on interesting projects
+  - Я разработчик PHP/Golang
+  - Я люблю микросервисы
+  - Я люблю крупные и сложные проекты
+  - Я люблю работать над интересными проектами

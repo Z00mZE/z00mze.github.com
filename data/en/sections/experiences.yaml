@@ -18,18 +18,18 @@ experiences:
     technologies:
       - Nginx
       - Apache Kafka
-      - PostgreSQL
       - Golang
+      - PostgreSQL
       - Docker
+      - CI/CD
       - ElasticSearch
-      - Microservices architecture (Strangler, BFF)
       - OpenAPI
       - Scrum
       - Jira
+      - TDD
       - Confluence
       - GitLab
-      - CI/CD
-      - TDD
+      - Microservices architecture (Strangler, BFF)
   positions:
     - designation: Senior backend-developer (sbermegamarket.ru)
       start: Mar 2022

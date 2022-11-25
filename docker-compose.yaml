@@ -1,8 +1,0 @@
-services:
-  hugo:
-    image: klakegg/hugo:ext-alpine
-    command: server --watch
-    volumes:
-      - ".:/src"
-    ports:
-      - 1313:1313

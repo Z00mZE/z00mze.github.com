@@ -4,7 +4,7 @@ section:
   id: projects
   enable: true
   weight: 5
-  showOnNavbar: true
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -14,51 +14,108 @@ buttons:
   filter: "all"
 - name: Professional
   filter: "professional"
-- name: Academic
-  filter: "academic"
 - name: Hobby
   filter: "hobby"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: NED
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  timeline: "Jul 2012 - Apr 2014"
+  url: "https://www.air-ned.com"
+  summary: Online design system for industrial ventilation equipment.
+  tags: ["professional"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: BURO 24/7
+  role: Developer
+  logo: /images/sections/projects/buro.png
+  timeline: "May 2014 - May 2016"
+  url: "https://www.buro247.ru"
+  summary: "***ForwardMediaGroup***. BURO 24/7 is an independent online magazine about fashion, beauty, culture and society"
+  tags: ["professional"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: HELLO!
+  role: Developer
+  logo: /images/sections/projects/hello.png
+  timeline: "May 2014 - May 2016"
+  url: "https://hellomagrussia.ru"
+  summary: "***ForwardMediaGroup***. HELLO! - Daily royal, celebrity, fashion, beauty & lifestyle news."
+  tags: ["professional"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
+- name: Harper`s Bazaar Russia
+  role: Developer
+  logo: /images/sections/projects/bazaar.png
+  timeline: "Apr 2017 - May 2018"
+  url: "https://bazaar.ru"
+  summary: "***Independent Media Sanoma Magazines***. Harper's BAZAAR - Your Source for Fashion Trends, Beauty Tips, Pop Culture News, and Celebrity Style."
+  tags: ["professional"]
+
+- name: Popular Mechanics Russia
+  role: Developer
+  logo: /images/sections/projects/popmech.png
+  timeline: "Apr 2017 - May 2018"
+  url: "https://popmech.ru"
+  summary: "***Independent Media Sanoma Magazines***. Popular Mechanics - Product Reviews, How-To, Space, Military, Math, Science, and New Technology."
+  tags: ["professional"]
+
+- name: Cosmopolitan Russia
+  role: Developer
+  logo: /images/sections/projects/cosmo.png
+  timeline: "Apr 2017 - May 2018"
+  url: "https://cosmo.ru"
+  summary: "***Independent Media Sanoma Magazines***. Cosmopolitan Russia - The Women's Magazine for Fashion, Sex Advice, Dating Tips, and Celebrity News."
+  tags: ["professional"]
+
+- name: BasicDecor
+  role: Developer
+  timeline: "Apr 2017 - May 2018"
+  logo: /images/sections/projects/bd.png
+  url: "https://basicdecor.ru"
+  summary: Online store for designer lamps, furniture, home decor and sanitary ware.
+  tags: ["professional"]
+
+- name: Shinservice
+  role: Developer
+  timeline: "May 2018 - Oct 2019"
+  logo: /images/sections/projects/shs.png
+  url: "https://www.shinservice.ru"
+  summary: Online store of car parts, B2B/B2C.
+  tags: ["professional"]
+
+- name: Matras Inter rus
+  role: Developer
+  timeline: "Oct 2019 - Nov 2021"
+  url: "https://www.matras.ru"
+  logo: /images/sections/projects/matras.png
+  summary: Online store of goods for sleep.
+  tags: ["professional"]
+
+- name: Podushka
+  role: Developer
+  timeline: "Mar 2021 - Aug 2021"
+  url: "https://podushka.ru"
+  logo: /images/sections/projects/podushka.png
+  summary: Online store of goods for sleep
+  tags: ["professional"]
+
+- name: Ortomax
+  role: Developer
+  timeline: "Mar 2021 - Aug 2021"
+  url: "https://ortomax.ru"
+  logo: /images/sections/projects/ortomax.png
+  summary: Online store of a brand of goods for sleep
+  tags: ["professional"]
+
+- name: RedisClusterMutex
   role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  timeline: "Nov 2022"
+  repo: https://github.com/Z00mZE/redis-cluster-mutex
+  summary: Implementation `mutex` based on Redis Cluster with TTL..
+  tags: ["hobby"]
+
+- name: pbToken
+  role: Owner
+  timeline: "Nov 2022"
+  repo: https://github.com/Z00mZE/pbtoken
+  summary: An encrypted data container, for example, for use in a REST-API.
+  tags: ["hobby"]

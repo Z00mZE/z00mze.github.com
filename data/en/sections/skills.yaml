@@ -17,7 +17,7 @@ skills:
   url: "https://www.php.net/"
 
 - name: PHP Development
-  logo: /images/sections/skills/go.png
+  logo: /images/sections/skills/php.svg
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://www.php.net/"
 
@@ -49,3 +49,23 @@ skills:
   logo: /images/sections/skills/postgre.png
   summary: "Experience in application development using PostgreSQL database."
   url: "https://www.postgresql.org"
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.png
+  summary: Capable of setup, configure Prometheus metrics.
+  url: "https://prometheus.io/"
+
+- name: RabbitMQ
+  logo: /images/sections/skills/rabbitmq.svg
+  summary: Capable of setup, configure Prometheus metrics.
+  url: "https://www.rabbitmq.com"
+
+- name: Apache Kafka
+  logo: /images/sections/skills/kafka.svg
+  summary: Capable of setup, configure Prometheus metrics.
+  url: "https://www.rabbitmq.com"
+
+- name: NATS
+  logo: /images/sections/skills/nats.svg
+  summary: Capable of setup, configure Prometheus metrics.
+  url: "https://nats.io"

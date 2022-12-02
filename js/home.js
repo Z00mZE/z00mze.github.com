@@ -66,17 +66,6 @@ var projectCards, publicationCards;
 
     // ================== Project cards =====================
     // Add click action on project category selector buttons
-    var filterButtons = document.getElementById("project-filter-buttons");
-    if (filterButtons != null) {
-      var btns = filterButtons.children;
-
-      for (let i = 0; i < btns.length; i++) {
-        btns[i].onclick = function () {
-          showGithubStars(btns[i].id);
-        }
-      }
-    }
-
     var projectCardHolder = document.getElementById("project-card-holder");
     if (projectCardHolder != null && projectCardHolder.children.length != 0) {
       projectCards = $(".filtr-projects").filterizr(
@@ -96,22 +85,6 @@ var projectCards, publicationCards;
           controlsSelector: '.pub-filtr-control',
         });
     }
-
-    function showGithubStars() {
-      // fix the github button class
-      // we had set it to github-button-inactive in projects holder cards so that respective javascript
-      // don't render it and replace respective span with shadow root
-      let githubButtons = document.getElementsByClassName("github-button-inactive");
-      while (githubButtons.length > 0) {
-        if (githubButtons[0].classList != undefined) {
-          githubButtons[0].classList.replace("github-button-inactive", "github-button");
-        }
-      }
-      // now render github button. it will call the github API and fill the respective fields
-      renderGithubButton();
-    }
-    showGithubStars();
-
     // ==================== Adjust height of the recent-posts card =============
 
     function adjustRecentPostsHeight() {
